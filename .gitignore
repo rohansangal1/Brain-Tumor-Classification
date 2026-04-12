@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ML / Data
+*.joblib
+*.pkl
+*.h5
+*.pb
+*.ckpt
+*.ckpt.*
+*.tfrecord
+*.npy
+*.npz
+data/Training/
+data/Testing/
+data/*.zip
+
+# Models (track with Git LFS if needed)
+models/*.joblib
+models/*.pkl
+models/*.h5
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets
+*.env
+.env.*
+kaggle.json
+ngrok.yml
+secrets/
+
+# Streamlit
+.streamlit/secrets.toml
